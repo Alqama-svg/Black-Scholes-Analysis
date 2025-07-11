@@ -199,24 +199,39 @@ Black-Scholes-Analysis/
 ---
 
 ## 🔍 Examples
-**Basic Call and Put Pricing**
-```bash
-<img width="1580" height="980" alt="image" src="https://github.com/user-attachments/assets/fb6e79d4-bed5-4e29-878d-923b9c19e718" />
+### Option Price vs Volatility
 
+This graph illustrates how call and put **option prices** increase with market **volatility**.
+![Volatility](assets/option_price_vs_volatility.png)
+```bash
 from black_scholes import black_scholes_call, black_scholes_put
 
 call = black_scholes_call(S=120, K=100, T=0.5, r=0.03, sigma=0.25)
 put = black_scholes_put(S=120, K=100, T=0.5, r=0.03, sigma=0.25)
 ```
-**Plotting Option Price Sensitivity to Volatility**
+
+---
+
+
+### Option Price vs Time to Maturity
+
+Options gain value as time to expiry increases.
+![Time to Maturity](assets/option_price_vs_time_to_maturity.png)
 ```bash
 from visualizations import plot_option_price_vs_volatility
 
 plot_option_price_vs_volatility(S=100, K=90, T=1, r=0.05)
 ```
 
----
+### Option Price vs Strike Price
 
+Shows how call prices drop and put prices rise as the strike diverges from the spot price.
+![Strike Price](assets/option_price_vs_strike_price.png)
+```bash
+from visualizations import plot_price_vs_strike
+
+plot_price_vs_strike(S=100, T=1.0, r=0.05, sigma=0.2)
+```
 
 ## 📑 API Reference
 
