@@ -105,11 +105,11 @@ Ensure Python 3.7 or higher is installed.
 
 ---
 
-### 🚀 Usage<br>
+### 🚀 Usage
 
 ---
 
-**You can run the scripts directly to compute option prices:**
+You can run the scripts directly to compute option prices:
 
 ```bash
 python black_scholes.py
@@ -206,11 +206,11 @@ The following table summarizes the formulas for the primary option Greeks under 
 > - `σ` is volatility  
 > - `d₁` and `d₂` are as defined in the Black-Scholes model
 
-
 ---
 
-## 🗂️ Code Structure
+### 🗂️ Code Structure
 
+---
 
 ```bash
 Black-Scholes-Analysis/
@@ -224,7 +224,7 @@ Black-Scholes-Analysis/
 
 ---
 
-## 🔍 Examples
+### 🔍 Examples
 ### Option Price vs Volatility
 
 This graph illustrates how call and put **option prices** increase with market **volatility**.
@@ -249,6 +249,9 @@ from visualizations import plot_option_price_vs_volatility
 plot_option_price_vs_volatility(S=100, K=90, T=1, r=0.05)
 ```
 
+---
+
+
 ### Option Price vs Strike Price
 
 Shows how call prices drop and put prices rise as the strike diverges from the spot price.
@@ -259,7 +262,11 @@ from visualizations import plot_price_vs_strike
 plot_price_vs_strike(S=100, T=1.0, r=0.05, sigma=0.2)
 ```
 
-## 📑 API Reference
+---
+
+### 📑 API Reference
+
+---
 
 ### `black_scholes_call(S, K, T, r, sigma)`
 Returns the price of a European call option.
@@ -291,7 +298,6 @@ Returns the price of a European put option.
 
 ---
 
-
 ### `plot_option_price_vs_volatility(S, K, T, r)`
 Generates a line plot showing how the option price varies with changes in volatility.
 
@@ -303,8 +309,9 @@ Generates a line plot showing how the option price varies with changes in volati
 
 ---
 
+### 🤝 Contributing
 
-## 🤝 Contributing
+---
 
 Contributions are **highly appreciated**!
 
@@ -338,14 +345,19 @@ Please follow these guidelines:
 
 Let’s build something great together!
 
+---
 
-## 📄 License
+### 📄 License
+
+---
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this code for educational and commercial purposes with attribution.
 
 ---
 
-## ✅ Conclusion
+### ✅ Conclusion
+
+---
 
 The **Black-Scholes-Analysis** repository brings together mathematical elegance and practical implementation to serve as a foundational toolkit for understanding European option pricing. Whether you're a finance student exploring the world of quantitative models or a developer prototyping algorithmic strategies, this project provides the building blocks for accurate and scalable derivative pricing.
 
