@@ -1,6 +1,11 @@
 # Black-Scholes Option Pricing Model Implementation
 A comprehensive Python-based implementation of the Black-Scholes Option Pricing Model with analytical tools and visualizations for European options.
-## 📋 Table of Contents ##
+
+---
+
+### 📋 Table of Contents ##
+
+---
 
 - Overview<br>
 - Features<br>
@@ -11,7 +16,11 @@ A comprehensive Python-based implementation of the Black-Scholes Option Pricing 
 - Contributing<br>
 - License
 
-## 📌 Overview
+---
+
+### 📌 Overview
+
+---
 
 The **Black-Scholes** Analysis project is a Python-based implementation of one of the most influential models in financial mathematics: the Black-Scholes-Merton model. Developed in 1973 by Fischer Black, Myron Scholes, and Robert Merton, this model revolutionized the pricing of European-style options and laid the foundation for modern quantitative finance.
 
@@ -45,7 +54,12 @@ This project is designed for:
 
 By outlining and explaining both theoretical depth and practical code, this repository bridges the gap between academic finance and real-world quantitative modeling.
 
-## ✨ Features
+---
+
+### ✨ Features
+
+---
+
 Core Functionality
 
 - ✅ Accurate computation of European Call and Put options using Black-Scholes formula.
@@ -63,7 +77,11 @@ Core Functionality
   - American option approximation
   - Monte Carlo Simulations
 
-## ⚙️ Installation
+---
+
+### ⚙️ Installation
+
+---
 
 Clone the repository and install required dependencies:
 
@@ -85,8 +103,13 @@ Dependencies include:
 Ensure Python 3.7 or higher is installed.
 ```
 
-## 🚀 Usage<br>
-You can run the scripts directly to compute option prices:
+---
+
+### 🚀 Usage<br>
+
+---
+
+**You can run the scripts directly to compute option prices:**
 
 ```bash
 python black_scholes.py
@@ -106,8 +129,11 @@ print(f"Call Option Price: {call_price}")
 print(f"Put Option Price: {put_price}")
 ```
 
-## 📚 Mathematical Background
+---
 
+### 📚 Mathematical Background
+
+---
 
 The Black-Scholes-Merton model is one of the foundational models in quantitative finance. It provides a theoretical estimate of the price of European-style call and put options, assuming that the price of the underlying asset follows a **geometric Brownian motion** with constant volatility and interest rate.
 
